@@ -72,7 +72,7 @@ def decide_fp_config():
 class Config:
     def __init__(self):
         self.device = "cuda:0"
-        self.is_half = True
+        self.is_half = False
         self.n_cpu = 0
         self.gpu_name = None
         self.gpu_mem = None
